@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MyOwnCard</string>
+    <string name="contact_heading">Contacts</string>
+    <string name="contact_phone">MyOwnCard</string>
+    <string name="contact_email">MyOwnCard</string>
+    <string name="contact_website">MyOwnCard</string>
 </resources>

@@ -1,11 +1,75 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Custom Styles. -->
+    <style name="MainCard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="IconAndTextHeader" parent="@style/MainCard">
+        <item name="android:drawablePadding">15dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:textColor">@color/cardview_light_background</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">#CDDC39</item>
+    </style>
+
+    <style name="IconAndTextContent" parent="@style/MainCard">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+    </style>
+
+    <style name="IconAndTextContentFirst" parent="@style/IconAndTextContent">
+        <item name="android:paddingTop">4dp</item>
+    </style>
+
+    <style name="IconAndTextContent_Icon">
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">36dp</item>
+    </style>
+
+    <style name="IconAndTextContent_Text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+
+    <style name="CompanyImageHeader">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="CompanyTextHeader" parent="@style/MainCard">
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:background">#64cddc39</item>
+        <item name="android:textColor">@color/cardview_light_background</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="BodyContent" parent="@style/MainCard">
+        <item name="android:padding">16dp</item>
     </style>
 
 </resources>
