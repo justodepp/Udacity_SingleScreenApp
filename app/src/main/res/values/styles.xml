@@ -9,12 +9,12 @@
     </style>
 
     <!-- Custom Styles. -->
-    <style name="MainCard">
+    <style name="HeaderCard">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
 
-    <style name="IconAndTextHeader" parent="@style/MainCard">
+    <style name="Contact_Header" parent="@style/HeaderCard">
         <item name="android:drawablePadding">15dp</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:paddingTop">12dp</item>
@@ -26,24 +26,20 @@
         <item name="android:background">#CDDC39</item>
     </style>
 
-    <style name="IconAndTextContent" parent="@style/MainCard">
+    <style name="Contact_Content" parent="@style/HeaderCard">
         <item name="android:orientation">horizontal</item>
         <item name="android:paddingBottom">4dp</item>
         <item name="android:paddingLeft">4dp</item>
         <item name="android:paddingRight">4dp</item>
     </style>
 
-    <style name="IconAndTextContentFirst" parent="@style/IconAndTextContent">
-        <item name="android:paddingTop">4dp</item>
-    </style>
-
-    <style name="IconAndTextContent_Icon">
+    <style name="Contact_Icon">
         <item name="android:padding">8dp</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">36dp</item>
     </style>
 
-    <style name="IconAndTextContent_Text">
+    <style name="Contact_Text">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_weight">2</item>
         <item name="android:layout_height">36dp</item>
@@ -52,13 +48,13 @@
         <item name="android:paddingRight">16dp</item>
     </style>
 
-    <style name="CompanyImageHeader">
+    <style name="ImageHeader">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
-        <item name="android:scaleType">centerCrop</item>
+        <item name="android:scaleType">fitCenter</item>
     </style>
 
-    <style name="CompanyTextHeader" parent="@style/MainCard">
+    <style name="TextHeader" parent="@style/HeaderCard">
         <item name="android:paddingTop">8dp</item>
         <item name="android:paddingBottom">8dp</item>
         <item name="android:paddingLeft">16dp</item>
@@ -68,7 +64,7 @@
         <item name="android:textSize">16sp</item>
     </style>
 
-    <style name="BodyContent" parent="@style/MainCard">
+    <style name="BodyContent" parent="@style/HeaderCard">
         <item name="android:padding">16dp</item>
     </style>
 
