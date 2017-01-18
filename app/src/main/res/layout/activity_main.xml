@@ -1,20 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_height="wrap_content"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.myowncard.MainActivity">
+    <LinearLayout
         android:id="@+id/activity_main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="16dp"
-        tools:context="com.example.android.myowncard.MainActivity">
+        >
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+            <ImageView
+                style="@style/ImageHeader"
+                android:id="@+id/imageHeaderLogo"
+                android:src="@drawable/headerLogo"
+                android:contentDescription="@string/company_focus"
+                />
+
+            <TextView
+                android:id="@+id/header_card_company_name"
+                style="@style/TextHeader"
+                android:text="@string/company_focus"
+                android:layout_alignBottom="@id/imageHeaderLogo"
+                />
+        </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        style="@style/BodyContent"
+        >
         <android.support.v7.widget.CardView
             style="@style/HeaderCard"
-            android:elevation="6dp"
             android:id="@+id/header_card"
+            android:layout_marginTop="8dp"
             android:layout_marginBottom="16dp"
             >
 
@@ -22,32 +49,17 @@
                 style="@style/HeaderCard"
                 android:orientation="vertical">
 
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="250dp">
-
-                    <ImageView
-                        style="@style/ImageHeader"
-                        android:id="@+id/imageHeaderLogo"
-                        android:src="@drawable/headerLogo"
-                        android:contentDescription="@string/company_focus"
-                        />
-
-                    <TextView
-                        android:id="@+id/header_card_company_name"
-                        style="@style/TextHeader"
-                        android:text="@string/company_focus"
-                        android:layout_alignBottom="@id/imageHeaderLogo"
-                        />
-
-                </RelativeLayout>
+                <TextView
+                    style="@style/Contact_Header"
+                    android:text="@string/info_heading"
+                    android:drawableLeft="@drawable/ic_info_withe_24dp"
+                    />
 
                 <TextView
                     android:id="@+id/header_card_company_description"
                     style="@style/BodyContent"
                     android:text="@string/company_description"
                     />
-
             </LinearLayout>
 
         </android.support.v7.widget.CardView>
@@ -65,8 +77,6 @@
                     style="@style/Contact_Header"
                     android:text="@string/contact_heading"
                     android:drawableLeft="@drawable/ic_person_white_24dp"
-                    android:drawableStart="@drawable/ic_person_white_24dp"
-                    android:gravity="start"
                     />
 
                 <LinearLayout
@@ -121,6 +131,6 @@
 
 
         </android.support.v7.widget.CardView>
-
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>
