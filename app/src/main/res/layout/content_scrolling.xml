@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.android.myowncard.MainActivity"
+    tools:showIn="@layout/activity_main"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        style="@style/scrollLayout">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/header_card"
+            style="@style/HeaderCard"
+            card_view:cardElevation="2dp"
+            card_view:cardCornerRadius="2dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <LinearLayout
+                style="@style/SetLayout"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/Contact_Header"
+                    android:text="@string/info_heading"
+                    android:drawableLeft="@drawable/ic_info_withe_24dp"
+                    />
+
+                <TextView
+                    android:id="@+id/header_card_company_description"
+                    style="@style/infoBodyContent"
+                    android:textSize="16sp"
+                    android:text="@string/large_text"
+                    />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/contact_details"
+            style="@style/HeaderCard"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            card_view:cardElevation="2dp"
+            card_view:cardCornerRadius="2dp"
+            >
+
+            <LinearLayout
+                style="@style/SetLayout"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/Contact_Header"
+                    android:text="@string/contact_heading"
+                    android:drawableLeft="@drawable/ic_person_white_24dp"
+                    />
+
+                <LinearLayout
+                    style="@style/Contact_Content"
+                    android:paddingTop="4dp">
+
+                    <ImageView
+                        style="@style/Contact_Icon"
+                        android:src="@drawable/ic_call_black_24dp"
+                        />
+
+                    <TextView
+                        style="@style/Contact_Text"
+                        android:text="@string/contact_phone"
+                        android:autoLink="phone"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/Contact_Content">
+
+                    <ImageView
+                        style="@style/Contact_Icon"
+                        android:src="@drawable/ic_mail_black_24dp"
+                        />
+
+                    <TextView
+                        style="@style/Contact_Text"
+                        android:text="@string/contact_email"
+                        android:autoLink="email"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/Contact_Content">
+
+                    <ImageView
+                        style="@style/Contact_Icon"
+                        android:src="@drawable/ic_home_black_24dp"
+                        />
+
+                    <TextView
+                        style="@style/Contact_Text"
+                        android:text="@string/contact_website"
+                        android:autoLink="web"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

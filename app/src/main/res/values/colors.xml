@@ -3,4 +3,5 @@
     <color name="colorPrimary">#98bf0e</color>
     <color name="colorPrimaryDark">#85a70c</color>
     <color name="colorAccent">#352e37</color>
+    <color name="bkgTextHeader">#82212121</color>
 </resources>
