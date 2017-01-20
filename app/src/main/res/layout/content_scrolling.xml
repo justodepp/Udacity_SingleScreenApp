@@ -79,6 +79,22 @@
 
                     <ImageView
                         style="@style/Contact_Icon"
+                        android:src="@drawable/ic_access_time_black_24dp"
+                        />
+
+                    <TextView
+                        style="@style/Contact_Text"
+                        android:text="@string/contact_hour"
+                        android:autoLink="web"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/Contact_Content">
+
+                    <ImageView
+                        style="@style/Contact_Icon"
                         android:src="@drawable/ic_mail_black_24dp"
                         />
 

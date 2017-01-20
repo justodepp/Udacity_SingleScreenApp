@@ -38,7 +38,7 @@
     <!-- Content Scrolling Styles -->
     <style name="infoBodyContent" parent="@style/SetLayout">
         <item name="android:padding">16dp</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:textSize">15sp</item>
     </style>
     <style name="scrollLayout" parent="@style/SetLayout">
         <item name="android:layout_width">match_parent</item>

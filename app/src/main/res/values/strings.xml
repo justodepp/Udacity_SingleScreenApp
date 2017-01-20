@@ -2,11 +2,12 @@
     <string name="app_name">BUGS - Computer Service</string>
     <string name="info_heading">Our Goal</string>
     <string name="contact_heading">Contacts</string>
-    <string name="contact_phone">MyOwnCard</string>
-    <string name="contact_email">MyOwnCard</string>
+    <string name="contact_phone">+39 </string>
+    <string name="contact_hour">from Friday 18:00 to Sunday 18:00</string>
+    <string name="contact_email">bugsservice@gmail.com</string>
     <string name="contact_website">https://bugsservice.com</string>
     <string name="company_focus">Your IT Problem Our IT Problem - Call us for a solution</string>
-    <string name="company_description">MyOwnCard</string>
+    <string name="company_description">Hello everyone, BUGS is the brainchild of two guys with a computer backgroung, to devote their free time to try solutions to problems arising from the use of technology. As is now well known, the use of technology is part of our everyday life (computers, smartphones, tablets, etc &#8230;) But not everyone can integrate their use during their day. BUGS intervenes precisely in this: to help and support those who encounter problems while using this equipment. So should you have a hitch, front of the PC for example, simply call us to book the withdrawal of the product directly to you and once you've solved the problem, you will be conveniently returned home!</string>
     <string name="title_activity_scrolling">ScrollingActivity</string>
     <string name="action_settings">Settings</string>
 </resources>
