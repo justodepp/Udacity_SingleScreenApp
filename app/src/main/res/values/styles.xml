@@ -21,6 +21,7 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_marginBottom">16dp</item>
     </style>
     <style name="TextHeader" parent="@style/SetLayout">
         <item name="android:paddingTop">8dp</item>

@@ -16,8 +16,8 @@
         <android.support.v7.widget.CardView
             android:id="@+id/header_card"
             style="@style/HeaderCard"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="16dp"
+            android:layout_marginTop="@dimen/card_margin"
+            android:layout_marginBottom="@dimen/text_margin"
             >
 
             <LinearLayout
@@ -33,7 +33,7 @@
                 <TextView
                     android:id="@+id/header_card_company_description"
                     style="@style/infoBodyContent"
-                    android:textSize="16sp"
+                    android:textSize="@dimen/text_size"
                     android:text="@string/company_description"
                     />
             </LinearLayout>
@@ -43,8 +43,8 @@
         <android.support.v7.widget.CardView
             android:id="@+id/contact_details"
             style="@style/HeaderCard"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="16dp"
+            android:layout_marginTop="@dimen/card_margin"
+            android:layout_marginBottom="@dimen/text_margin"
             >
 
             <LinearLayout
@@ -59,7 +59,7 @@
 
                 <LinearLayout
                     style="@style/Contact_Content"
-                    android:paddingTop="4dp">
+                    android:paddingTop="@dimen/phone_padding">
 
                     <ImageView
                         style="@style/Contact_Icon"
