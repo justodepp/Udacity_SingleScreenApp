@@ -63,6 +63,22 @@
 
                     <ImageView
                         style="@style/Contact_Icon"
+                        android:src="@drawable/ic_place_black_24dp"
+                        />
+
+                    <TextView
+                        style="@style/Contact_Text"
+                        android:text="@string/contact_address"
+                        android:autoLink="phone"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/Contact_Content">
+
+                    <ImageView
+                        style="@style/Contact_Icon"
                         android:src="@drawable/ic_call_black_24dp"
                         />
 
