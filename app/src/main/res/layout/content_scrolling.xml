@@ -59,7 +59,8 @@
 
                 <LinearLayout
                     style="@style/Contact_Content"
-                    android:paddingTop="@dimen/phone_padding">
+                    android:paddingTop="@dimen/phone_padding"
+                    >
 
                     <ImageView
                         style="@style/Contact_Icon"
@@ -67,9 +68,10 @@
                         />
 
                     <TextView
+                        android:id="@+id/location"
                         style="@style/Contact_Text"
                         android:text="@string/contact_address"
-                        android:autoLink="phone"
+                        android:autoLink="map"
                         />
 
                 </LinearLayout>

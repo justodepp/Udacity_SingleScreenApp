@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">BUGS - Computer Service</string>
+    <string name="app_name">BUGS</string>
     <string name="info_heading">Our Goal</string>
     <string name="contact_heading">Contacts</string>
-    <string name="contact_address">20100 Milano, Italy</string>
+    <string name="contact_address">Piazza del Duomo, 20122 Milano</string>
     <string name="contact_phone">+39 3400000000</string>
     <string name="contact_hour">from Friday 18:00 to Sunday 18:00</string>
     <string name="contact_email">bugsservice@gmail.com</string>
